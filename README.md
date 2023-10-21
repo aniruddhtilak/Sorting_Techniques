@@ -35,10 +35,8 @@ Algorithm
       i. The outer loop, with 'iterator', runs from 0 to 'number-1' (inclusive):The purpose of the outer loop is to iterate through each element of the array.
    
       ii. The inner loop, with 'n_iterator', also runs from 0 to 'number-1' (inclusive): The purpose of the inner loop is to compare adjacent elements and swap them if necessary.
-   
-          Check if 'parameter_array[n_iterator]' is greater than 'parameter_array[n_iterator+1]'.
-   
-          If true, swap 'parameter_array[n_iterator]' and 'parameter_array[n_iterator+1]' using the 'temporary' variable.
+   Check if 'parameter_array[n_iterator]' is greater than 'parameter_array[n_iterator+1]'.
+   If true, swap 'parameter_array[n_iterator]' and 'parameter_array[n_iterator+1]' using the 'temporary' variable.
    
    c. After sorting, use a 'for' loop to print the sorted elements:
    
