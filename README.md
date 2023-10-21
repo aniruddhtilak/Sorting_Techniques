@@ -45,9 +45,7 @@ Algorithm
    
    c. After sorting, use a 'for' loop to print the sorted elements:
    
-      i. For each 'iterator' from 0 to 'number-1':
-   
-          Print the sorted element at 'parameter_array[iterator]'.
+      i. For each 'iterator' from 0 to 'number-1': Print the sorted element at 'parameter_array[iterator]'.
    
 
 4. In the 'main()' function:
@@ -56,9 +54,7 @@ Algorithm
    
    b. Use a 'for' loop to input the elements:
    
-      i. For each 'iterator' from 0 to 'size-1':
-   
-         Prompt the user to enter an element and store it in 'test_array[iterator]'.
+      i. For each 'iterator' from 0 to 'size-1': Prompt the user to enter an element and store it in 'test_array[iterator]'.
    
    c. Call the 'bubble_sorter' function to sort the 'test_array' array.
    
