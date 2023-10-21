@@ -23,29 +23,32 @@ Algorithm -
 6. End of the program.
 
 **B. Bubble sorter function-**  uses a separate function bubble_sorter to perform the bubble sort algorithm on the array.
-Algorithm:
+Algorithm 
 
 1. Define a function 'bubble_sorter' that takes two parameters: 'number' (the size of the array) and 'parameter_array' (the array to be sorted).
 
 2. Inside the 'bubble_sorter' function:
    a. Declare a temporary variable 'temporary' to store values during swapping.
    b. Use nested 'for' loops for the bubble sort:
-         i. The outer loop, with 'iterator', runs from 0 to 'number-1' (inclusive):
+      i. The outer loop, with 'iterator', runs from 0 to 'number-1' (inclusive):
          - The purpose of the outer loop is to iterate through each element of the array.
-         ii. The inner loop, with 'n_iterator', also runs from 0 to 'number-1' (inclusive):
+      ii. The inner loop, with 'n_iterator', also runs from 0 to 'number-1' (inclusive):
          - The purpose of the inner loop is to compare adjacent elements and swap them if necessary.
          - Check if 'parameter_array[n_iterator]' is greater than 'parameter_array[n_iterator+1]'.
          - If true, swap 'parameter_array[n_iterator]' and 'parameter_array[n_iterator+1]' using the 'temporary' variable.
-    c. After sorting, use a 'for' loop to print the sorted elements:
-         i. For each 'iterator' from 0 to 'number-1':
+   c. After sorting, use a 'for' loop to print the sorted elements:
+      i. For each 'iterator' from 0 to 'number-1':
          - Print the sorted element at 'parameter_array[iterator]'.
-   4. In the 'main()' function:
-         a. Prompt the user to enter the number of elements ('size') and create an integer array 'test_array' of size 'size'.
-         b. Use a 'for' loop to input the elements:
-            i. For each 'iterator' from 0 to 'size-1':
-            - Prompt the user to enter an element and store it in 'test_array[iterator]'.
-         c. Call the 'bubble_sorter' function to sort the 'test_array' array.
-   5. End of the program.
+
+3. In the 'main()' function:
+   a. Prompt the user to enter the number of elements ('size') and create an integer array 'test_array' of size 'size'.
+   b. Use a 'for' loop to input the elements:
+      i. For each 'iterator' from 0 to 'size-1':
+         - Prompt the user to enter an element and store it in 'test_array[iterator]'.
+   c. Call the 'bubble_sorter' function to sort the 'test_array' array.
+
+4. End of the program.
+
 
 
 
