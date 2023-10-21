@@ -33,8 +33,7 @@ Algorithm
    b. Use nested 'for' loops for the bubble sort:
    
       i. The outer loop, with 'iterator', runs from 0 to 'number-1' (inclusive):
-   
-          The purpose of the outer loop is to iterate through each element of the array.
+   The purpose of the outer loop is to iterate through each element of the array.
    
       ii. The inner loop, with 'n_iterator', also runs from 0 to 'number-1' (inclusive):
    
